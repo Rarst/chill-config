@@ -10,24 +10,23 @@ Clone/download from repository and `composer install`.
 
 At the top of `wp-config.php` add:
 
-```php
-// require autoload
+	:::php
+	// require autoload
 
-$chill_config = new Chill_Config( __DIR__ . '/wp-config.yaml' );
-```
+	$chill_config = new Chill_Config( __DIR__ . '/wp-config.yaml' );
+
 
 YAML example:
 
-```yaml
-constants:
-  WP_DEBUG: True
-options:
-  blogdescription: blog's tag line
-transients:
-  doesnotexist: or does it?
-filters:
-  browse-happy-notice: ''
-```
+	:::yaml
+	constants:
+	  WP_DEBUG: True
+	options:
+	  blogdescription: blog's tag line
+	transients:
+	  doesnotexist: or does it?
+	filters:
+	  browse-happy-notice: ''
 
 # License Info
 
