@@ -2,7 +2,7 @@
 	"name"       : "rarst/chill-config",
 	"description": "Experimental YAML config handler for WordPress.",
 	"keywords"   : ["wordpress", "yaml"],
-	"homepage"   : "https://bitbucket.org/Rarst/chill-config",
+	"homepage"   : "https://github.com/Rarst/chill-config",
 	"license"    : "GPL-2.0+",
 	"authors"    : [
 		{
@@ -12,8 +12,7 @@
 		}
 	],
 	"support"    : {
-		"issues": "https://bitbucket.org/Rarst/chill-config/issues",
-		"source": "https://bitbucket.org/Rarst/chill-config/src"
+		"issues": "https://github.com/Rarst/chill-config/issues"
 	},
 	"require"    : {
 		"symfony/yaml": "~2.4"
